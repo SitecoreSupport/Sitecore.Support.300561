@@ -60,13 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="sitecore\shell\Controls\Rich Text Editor\EditorPage.aspx.cs">
+    <Compile Include="sitecore\shell\Controls\Rich Text Editor\EditorPage.aspx.cs">
       <DependentUpon>EditorPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Content>
-    <Content Include="sitecore\shell\Controls\Rich Text Editor\EditorPage.aspx.designer.cs">
+    </Compile>
+    <Compile Include="sitecore\shell\Controls\Rich Text Editor\EditorPage.aspx.designer.cs">
       <DependentUpon>EditorPage.aspx</DependentUpon>
-    </Content>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

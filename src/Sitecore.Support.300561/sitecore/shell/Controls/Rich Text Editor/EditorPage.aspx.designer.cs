@@ -7,7 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sitecore.Shell.Controls.RichTextEditor {
+namespace Sitecore.Support.sitecore.shell.Controls.Rich_Text_Editor
+{
     
     
     public partial class EditorPage {

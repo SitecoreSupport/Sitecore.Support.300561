@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditorPage.aspx.cs" Inherits="Sitecore.Shell.Controls.RichTextEditor.EditorPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditorPage.aspx.cs" Inherits="Sitecore.Support.Shell.Controls.Rich_Text_Editor.EditorPage" %>
 
 <%@ Register Assembly="Sitecore.Kernel" Namespace="Sitecore.Web.UI.HtmlControls" TagPrefix="sc" %>
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
@@ -146,6 +146,7 @@
                 Width="100%"
                 ContentFilters="DefaultFilters"
                 DialogsCssFile="/sitecore/shell/themes/standard/default/Content Manager.css"
+                <!--Fox for bug 300561-->
                 DialogsScriptFile="/sitecore/shell/Controls/Rich Text Editor/Dialog.js"
                 StripFormattingOptions="MSWordRemoveAll,ConvertWordLists"
                 StripFormattingOnPaste="MSWordRemoveAll,ConvertWordLists"
