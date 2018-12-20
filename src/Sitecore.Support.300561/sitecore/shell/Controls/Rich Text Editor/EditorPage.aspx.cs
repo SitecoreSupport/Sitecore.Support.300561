@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Sitecore.Support.sitecore.shell.Controls.Rich_Text_Editor
+namespace Sitecore.Support.Shell.Controls.Rich_Text_Editor
 {
   public partial class EditorPage : System.Web.UI.Page
   {
